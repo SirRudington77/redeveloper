@@ -264,3 +264,75 @@ footer {
     font-size: 20px;
 }
 
+
+/*Media Queries for Responsiveness*/
+
+/*Tablets and larger screens*/
+@media (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .nav_links li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .bio_pic, .personal_pic {
+        height: 500px;
+    }
+
+    .statement {
+        font-size: 18px;
+    }
+
+    .name {
+        font-size: 32px;
+    }
+
+    .name_personal {
+        font-size: 40px;
+    }
+
+    .bio_description, .about_description {
+        font-size: 18px;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .nav_links {
+        text-align: center;
+    }
+
+    .nav_links li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .bio_pic, .personal_pic {
+        height: 300px;
+    }
+
+    .statement {
+        font-size: 16px;
+    }
+
+    .name {
+        font-size: 24px;
+    }
+
+    .name_personal {
+        font-size: 32px;
+    }
+
+    .bio_description, .about_description {
+        font-size: 16px;
+    }
+}
