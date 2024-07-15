@@ -188,7 +188,7 @@ h1, h2, h3 {
 }
 
 
-.coding_logo {
+.coding_log {
     height: 100px;
     width: auto;;
 }
@@ -251,7 +251,11 @@ h1, h2, h3 {
     border-color: blue;
 } */
 
-
+/*Contact Page*/
+.contact_logos {
+    height: 50px;
+    width: auto;
+}
 
 /*Footer Section*/
 footer {
